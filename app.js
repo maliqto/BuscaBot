@@ -4,10 +4,10 @@ const axios = require('axios');
 
 
 // Crie uma instância do bot com o token fornecido pelo BotFather
-const bot = new TelegramBot('6146765362:AAHuBU3fDgf8mhO-kfOOfG-mYW2Gn6G68ao', { polling: true });
+const bot = new TelegramBot('BOT TOKEN TELEGRAM', { polling: true });
 
 // Lista de IDs permitidos
-const idsPermitidos = [5373344632];
+const idsPermitidos = [ID DO ADMIN E PERMITIDOS];
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
